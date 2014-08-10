@@ -422,7 +422,7 @@ ul {
   list-style: disc; }
 
 li {
-  margin-left: 30px; }
+  list-style: none; }
 
 p,
 dl,
@@ -441,6 +441,14 @@ address,
 fieldset,
 figure {
   margin-bottom: 20px; }
+
+/* link styles
+   ========================================================================== */
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: pink; }
 
 /* ============================================ */
 /* This file has a mobile-to-desktop breakpoint */
